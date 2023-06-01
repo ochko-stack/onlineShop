@@ -31,7 +31,7 @@ const Cart = () => {
             <div className='checkout'>
             <p>Subtotal: ${totalaAmount}</p>
             <button onClick={()=>nav('/')}> Continue Shopping</button>
-            <button> Checkout</button>
+            <button onClick={alert("this feature is coming")}> Checkout</button>
         </div> 
         :<h1>Your cart is empty</h1>
     }
